@@ -3,7 +3,7 @@
 set -e
 
 ROOM="$*"
-FILE="tryhackme-progress/completed.txt"
+FILE="completed.txt"
 
 if [ -z "$ROOM" ]; then
     echo 'Usage: ./tryhackme-progress/add-room.sh "Room Name"'
